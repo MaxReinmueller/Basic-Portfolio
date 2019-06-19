@@ -39,7 +39,7 @@ body {
 .section {
     clear: both;
     overflow: auto;
-    height: 500px;
+    padding-bottom: 100px;
     border-top-style: solid;
     background-image: url(../images/textured_paper.png)
 }
@@ -50,7 +50,7 @@ body {
     padding: 20px;
     margin: 0 auto;
     margin-top: 35px;
-    height: 300px;
+    padding-bottom: 4%;
 
 }
 
@@ -88,10 +88,49 @@ footer {
 .contactform {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 80%;
-
+    width: 80%; 
 }
 
+input {
+    width: 910px;
+    margin-bottom: 12px;
+    
+}
+
+textarea {
+    height: 75px;
+}
+
+.button [type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 5px;
+    height: 25px;
+    width: 70px;
+    border: none;
+    cursor: pointer;
+    float: left;
+  }
+
+  .button [type=submit]:hover {
+    background-color: #409793;
+  }
+
+.projectlinks {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
 
