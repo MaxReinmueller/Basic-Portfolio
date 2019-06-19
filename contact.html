@@ -3,7 +3,8 @@
 
 <head>
 <title>About</title>
-<link href="assets/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="cssreset.css">
+<link type="text/css" href="assets/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,19 +25,27 @@
 
     <div class="section">
         <div class="textbox">
-            <h1 id="textboxtitle">About Me</h1>
+            <h2 id="textboxtitle">Contact</h2>
 
             <hr>
-
-            <img id="me" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjsmKwMCPs__LmzrcEo-KTp3Zs95S_ZNQEVjClnIwcTP3ohAWUNQ" alt="me" width = 150px>
-            <p>fdjksal;fdjkalfjdkal fjdksla;fjdkas fd jksal;fhweiofeokd sk
-                jfioasfjdksa'jfdksl'jfdkl'afd
-                fdkals'jfdkl'jfdklajfkdla'jfdkla'jfkda'fjkdlas'jfkdla'
-                jfdkalsfjdkla;fjdkasl;fj
-                fjdksla;jfdklas;fjdkasfjkdsla;jfdkalsfjdklajfdklas'fjdkasljkfda\jfdkalsfjdklajfdklas
-                fdsafdsafdafdfds
-            </p>
-          
+            <form class="contactform" action="" method="">
+                    <div>
+                        <label for="Name">Name:</label>
+                        <input type="text" id="name" name="user_name">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </div>
+                    <div>
+                        <Label for="message">Message</Label>
+                        <input type="text" id="message" name="message">
+                    </div>
+                    <div class="button">
+                            <button type="submit">Submit</button>
+                    </div>
+            </form>
+            
         </div>
         
     </div>
