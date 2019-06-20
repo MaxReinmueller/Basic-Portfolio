@@ -22,6 +22,14 @@ h1 {
     list-style-type: none;
 }
 
+.navtxt :hover {
+    color: #4aaaa5;
+}
+
+.navtxt :active {
+    color: #777777;
+}
+
 
 a {
     text-decoration: none;
@@ -122,15 +130,10 @@ textarea {
     margin-top: 20px;
 }
 
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
+/*  
+ Create a series of links and modify the pseudo-classes 
+ associated with their Default, Active, Hover, and Focus States.*/
 
 /*Colors Pro-tip: Use the Eye Dropper Chrome extension to find the colors used on web pages.
 
